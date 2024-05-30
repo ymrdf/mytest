@@ -1,0 +1,17 @@
+{
+  "name": "antlr4-calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "node ./index.js",
+    "generate": "antlr4js -visitor Calc.g4 -o out"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.10.1",
+    "antlr4-compile": "0.0.2"
+  }
+}
